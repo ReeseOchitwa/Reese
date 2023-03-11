@@ -1,10 +1,28 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import React from 'react';
+import Home from './components/pages/Home'
+import Products from './components/pages/Products'
+import Services from './components/pages/Services'
+import SignUp from './components/pages/SignUp'
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>yo</h1>
-    </div>
+    <>
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/hobbies"  element={<Services />} />
+          <Route path="/travel" element={<Products />}/>
+          <Route path="/school" element={<SignUp />}/>
+        </Routes>
+      </Router>
+    </>
+
+    
   );
 }
 
