@@ -87,7 +87,7 @@ function Footer() {
                     </Link>
                     <Link 
                         class='social-icon-link twitter'  
-                        to="#top" target="_blank" 
+                        to="https://twitter.com/HologramPhoenix" target="_blank" 
                         aria-label='Twitter'>
                         <i class="fab fa-twitter"></i>
                     </Link>
