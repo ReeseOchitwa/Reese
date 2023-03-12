@@ -21,6 +21,7 @@ function Cards() {
                         text='Cancun' 
                         label='Dec 2019' 
                         path='/travel'
+                    
                     />
                 </ul>
                 <ul className='cards__items'>

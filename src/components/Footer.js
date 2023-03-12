@@ -69,7 +69,7 @@ function Footer() {
                 <div className='social-icons'>
                     <Link 
                         class='social-icon-link facebook'  
-                        to="/" target="_blank" 
+                        to="#top" target="_blank" 
                         aria-label='Facebook'>
                         <i class="fab fa-facebook-f"></i>
                     </Link>
@@ -81,7 +81,7 @@ function Footer() {
                     </Link>
                     <Link 
                         class='social-icon-link Linkedin'  
-                        to="/" target="_blank" 
+                        to="#top" target="_blank" 
                         aria-label='LinkedIn'>
                         <i class="fab fa-linkedin"></i>
                     </Link>
@@ -100,7 +100,7 @@ function Footer() {
                     </Link>
                     <Link 
                         className='social-icon-link snapchat'  
-                        to="/" target="_blank" 
+                        to="#top" target="_blank" 
                         aria-label='Snapchat'>
                         <i className="fab fa-snapchat"></i>
                     </Link>
