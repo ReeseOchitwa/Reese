@@ -8,6 +8,8 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    height:100%;
+
   }
   
   .navbar-container {
@@ -41,8 +43,10 @@
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
+    justify-content: top;
     margin-right: 2rem;
+    padding-bottom: 50px;
+    height:100%;
   }
   
   .nav-item {
