@@ -24,44 +24,44 @@ function Footer() {
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
                     <h2>Add</h2>
-                    <Link to='/school'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
+                    <Link to='/school' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
                 </div>
                 <div className='footer-link-items'>
                     <h2>More</h2>
-                    <Link to='/hobbies'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
+                    <Link to='/hobbies' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/ onClick="window.scrollTo(0,0)"'>Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
                 </div>
             </div>
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
                     <h2>Links</h2>
-                    <Link to='/travel'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
+                    <Link to='/travel' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
                 </div>
                 <div className='footer-link-items'>
                     <h2>Later</h2>
-                    <Link to='/school'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
-                    <Link to='/'>Example</Link>
+                    <Link to='/school' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)"> Example</Link>
+                    <Link to='/' onClick="window.scrollTo(0,0)">Example</Link>
                 </div>
             </div>
         </div>
         <section className='social-media'>
             <div className='social-media-wrap'>
                 <div className='footer-logo'>
-                    <Link className='social-logo'>
+                    <Link to="/" onClick="window.scrollTo(0,0)" className='social-logo'>
                         <i className='fa-solid fa-code' />
                     </Link>
                 </div>
@@ -95,6 +95,7 @@ function Footer() {
                         class='social-icon-link github'  
                         to="https://github.com/ReeseOchitwa" target="_blank" 
                         aria-label='Github'>
+                        
                         <i class="fab fa-github"/>
                     </Link>
                     <Link 

@@ -8,6 +8,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
+  
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
@@ -37,19 +38,15 @@ function Navbar() {
               </div>
               <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
-                  <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home
+                  <Link to='/' className='nav-links' onClick="closeMobileMenu, window.scrollTo(0,0)">Home
                   </Link>
                 </li>
                 <li className='nav-item'>
-                  <Link to='/hobbies' className='nav-links' onClick={closeMobileMenu}>Hobbies
+                  <Link to='/hobbies' className='nav-links' onClick="closeMobileMenu, window.scrollTo(0,0)">Hobbies
                   </Link>
                 </li>
                 <li className='nav-item'>
-                  <Link to='/travel' className='nav-links' onClick={closeMobileMenu}>Travel
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link to='/school' className='nav-links-mobile' onClick={closeMobileMenu}>School
+                  <Link to='/travel' className='nav-links' onClick="closeMobileMenu, window.scrollTo(0,0)">Travel
                   </Link>
                 </li>
               </ul>
@@ -60,4 +57,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

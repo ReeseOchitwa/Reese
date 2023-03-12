@@ -25,7 +25,7 @@ export const Button = ({
         <Link to="/school" className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-            onClick={onClick}
+            onClick='onClick, window.scrollTo(0,0)"'
             type={type}
             >
                 {children}

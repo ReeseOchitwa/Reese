@@ -1,0 +1,31 @@
+.text-page {
+    text-align: center;
+    width:100%;
+}
+.head{
+    margin-top: 70px;
+    font-size: 44px;
+}
+
+.paragraph{
+    justify-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    padding:20px;
+}
+.my-div:first-of-type{
+    background-color: black;
+    height:10px
+}
+.my-div:last-of-type{
+    height:100px;
+}
+.my-section{
+    bottom:100px;
+    margin-right:150px;
+    margin-left:150px;
+    display: block;
+    justify-self: center;
+
+}
