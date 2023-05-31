@@ -21,7 +21,7 @@ export default function SignUp(){
                                                     and plays a lot of football. Right now he is signed to a team in Victoria,
                                                      BC to play Football after High School.
                 </p>
-                <p className='text-page paragraph'>\Bert Church has a lot of students. At the moment, we have 1200+, 
+                <p className='text-page paragraph'>Bert Church has a lot of students. At the moment, we have 1200+, 
                                                     which is quite big, atleast for Airdrie. For reference Airdrie has 
                                                     about 70K residents. The school is kind of large and we recntly got 
                                                     portables, which I hate because it means I have to go outside during
